@@ -1,0 +1,21 @@
+.BannerLogoStyle{
+position: relative;
+top: 0;
+left: 0;
+
+
+}
+.Banner{
+ position: relative;
+top: 0;
+left: 0;
+width: 100%;
+opacity: 0.2;
+}
+.Logo{
+
+position: absolute;
+left: 29%;
+width: 40%;
+
+}
