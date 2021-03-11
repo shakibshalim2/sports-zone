@@ -19,8 +19,8 @@ const TeamDetails = () => {
             .then(res => res.json())
             .then(data => setDetails(data.leagues[0]))
 
-    }, [])
-    const { strLeague, dateFirstEvent, strCountry, strSport, strGender, strBanner, strFanart2, strDescriptionEN, strFacebook, strTwitter, strYoutube, strLogo } = details;
+    }, [idLeague])
+    const { strLeague, dateFirstEvent, strCountry, strSport, strGender, strBanner, strDescriptionEN, strFacebook, strTwitter, strYoutube, strLogo } = details;
     const GenderDetails = details.strGender;
     return (
         <div style={{ backgroundColor: ' rgb(169, 238, 177)' }} className="text-center">
