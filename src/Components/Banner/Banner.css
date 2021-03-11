@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    
+    opacity: 0.8;
     }
     .BannerHeading{ 
      color: rgb(50, 30, 30);
@@ -16,5 +16,4 @@
     }
     .text{
     font-size:200%;
- 
     }
