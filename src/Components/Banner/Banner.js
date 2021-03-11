@@ -4,11 +4,11 @@ import css from './Banner.css'
 const Banner = () => {
     return (
         <div className="HomePageBanner">
-            <div >
+            <div>
                 <img className="HomeBanner" src={banner} alt="" />
             </div>
             <div className="BannerHeading">
-                <h2>Sports Zone</h2>
+                <h2 className="text">Sports Zone</h2>
             </div>
         </div>
     );

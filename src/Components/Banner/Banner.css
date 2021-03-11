@@ -1,9 +1,5 @@
 .HomePageBanner{
     position: relative;
-    top: 0;
-    left: 0;
-    
-    
     }
     .HomeBanner{
      position: relative;
@@ -12,12 +8,13 @@
     width: 100%;
     
     }
-    .BannerHeading{
-        text-align: center;
-    color: white;
-    position: absolute;
-    left: 30%;
-    width: 40%;
-    bottom:40%;
-
+    .BannerHeading{ 
+     color: rgb(50, 30, 30);
+        position: absolute;
+        left: 40%;
+        bottom:40%;
+    }
+    .text{
+    font-size:200%;
+ 
     }
